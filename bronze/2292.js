@@ -7,7 +7,6 @@ let numResult = 1;
 
 while(+input > numResult) {
     numResult += step*6
-    console.log(input, step, numResult);
     step++;
 }
 console.log(step);
