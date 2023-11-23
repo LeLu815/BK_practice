@@ -1,4 +1,4 @@
-const input = ["7 7 7", "6 5 4", "3 2 5", "6 2 6", "0 0 0"];
+// const input = ["7 7 7", "6 5 4", "3 2 5", "6 2 6", "0 0 0"];
 
 // const fs = require("fs");
 // const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
