@@ -1,2 +1,2 @@
 # BK_practice
- Practice js algorithm with BK
+ Practicejs algorithm with BK
