@@ -1,2 +1,2 @@
 # BK_practice
- Practice JavaScript algorithm with BK
+ Practice python algorithm with BK
