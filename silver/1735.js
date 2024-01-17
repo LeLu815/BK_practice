@@ -1,7 +1,7 @@
-const input = ["2 7", "3 5"];
+// const input = ["2 7", "3 5"];
 
-// const fs = require("fs");
-// const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
+const fs = require("fs");
+const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 const [first_son, fist_mom] = input[0].split(" ");
 const [second_son, second_mom] = input[1].split(" ");
 
