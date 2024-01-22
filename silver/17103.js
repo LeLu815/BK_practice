@@ -1,12 +1,12 @@
-const input = [5, 6, 8, 10, 12, 100];
+// const input = [5, 6, 8, 10, 12, 100];
 
-// const fs = require("fs");
-// const input = fs
-//   .readFileSync("/dev/stdin")
-//   .toString()
-//   .trim()
-//   .split("\n")
-//   .map(Number);
+const fs = require("fs");
+const input = fs
+  .readFileSync("/dev/stdin")
+  .toString()
+  .trim()
+  .split("\n")
+  .map(Number);
 
 const numList = input.slice(1);
 const maxNum = Math.max(...numList);
@@ -22,8 +22,6 @@ for (let i = 2; i * i <= maxNum; i++) {
     }
   }
 }
-
-console.log("primeList :", primeList);
 
 const resultList = [];
 numList.forEach((value) => {
