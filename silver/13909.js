@@ -1,8 +1,4 @@
-const inputNum = 24;
-
-// const fs = require("fs");
-// const input = fs.readFileSync("/dev/stdin").toString().trim();
-// const inputNum = Number(input);
+// const inputNum = 24;
 
 // // 소인수 갯수가 창문의 열고 닫음의 수
 // // 홀수이면 열리고 짝수이면 닫힌다
@@ -30,3 +26,28 @@ const inputNum = 24;
 
 // 숫자가 제곱수일때 창문이 하나씩 생긴다
 // 이유는 소인수 갯수는 제곱수를 제외하고는 모두 쌍으로 생기기 때문에 짝이 스스로인 제곱수를 제외하고는 모두 창문이 닫히게 된다.
+const fs = require("fs");
+const input = fs.readFileSync("/dev/stdin").toString().trim();
+const inputNum = Number(input);
+// let resultCount = 0;
+// for (let i = 1; i <= inputNum; i++) {
+//   if (Number.isInteger(Math.sqrt(i))) {
+//     resultCount++;
+//   }
+// }
+// console.log(resultCount);
+
+// const fs = require("fs");
+// const file = process.platform === "linux" ? "dev/stdin" : "./text.txt";
+// const input = fs.readFileSync(file).toString().trim();
+
+// const n = parseInt(input);
+
+var result = 0;
+
+// 제곱수를 구하는식
+for (i = 1; i * i <= n; i++) {
+  result++;
+}
+
+console.log(result);
