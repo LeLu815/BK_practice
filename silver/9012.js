@@ -1,7 +1,7 @@
-const input = ["3", "((", "))", "())(()"];
+// const input = ["3", "((", "))", "())(()"];
 
-// const fs = require("fs");
-// const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
+const fs = require("fs");
+const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 const resultList = [];
 for (let i = 1; i < input.length; i++) {
   const parenthesisStackList = [];
