@@ -1,7 +1,7 @@
-const input = ["3", "3"];
+// const input = ["3", "3"];
 
-// const fs = require("fs");
-// const input = fs.readFileSync("/dev/stdin").toString().trim().split(" ");
+const fs = require("fs");
+const input = fs.readFileSync("/dev/stdin").toString().trim().split(" ");
 const [listNum, gap] = input;
 const result = [];
 const JosephusStackQueueClass = class {
