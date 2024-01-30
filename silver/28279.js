@@ -1,7 +1,7 @@
-const input = ["11", "1 1", "1 2", "1 3", "2 4", "3", "4"];
+// const input = ["11", "1 1", "1 2", "1 3", "2 4", "3", "4"];
 
-// const fs = require("fs");
-// const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
+const fs = require("fs");
+const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 const DoubleEndedQueue_Class = class {
   constructor() {
     this.front = 0;
